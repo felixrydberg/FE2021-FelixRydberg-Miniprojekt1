@@ -41,7 +41,7 @@ for(let i=0; i < 3; i++) {
             ul3.appendChild(li);
             li.innerHTML=i;
             li.style.textAlign="left";
-            if (i%2){
+            if (i%2===0){
                 li.style.background="white";
             }
             else if(i===4) {
@@ -59,7 +59,7 @@ for(let i=0; i < 3; i++) {
             ul3.appendChild(li);
             li.innerHTML=i;
             li.style.textAlign="center";
-            if (i%2){
+            if (i%2===0){
                 li.style.background="black";
                 li.style.color="white";
             }
@@ -77,7 +77,7 @@ for(let i=0; i < 3; i++) {
             ul3.appendChild(li);
             li.innerHTML=numbers[i];
             li.style.textAlign="right";
-            if (i%2){
+            if (i%2===0){
                 li.style.background="white";
             }
             else if(i===6) {
